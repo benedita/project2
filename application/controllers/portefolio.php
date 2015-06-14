@@ -6,6 +6,17 @@
  * Time: 00:43
  */
 
-class portefolio {
+defined('BASEPATH') OR exit('No direct script access allowed');
 
+class portefolio extends CI_Controller{
+
+
+
+    public function index()
+    {
+        $this->load->view('head');
+        $this->load->view('nav');
+        $this->load->view('portfolio');
+        $this->load->view('footer');
+    }
 }

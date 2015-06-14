@@ -15,11 +15,11 @@
 			<div class="top-nav">
 				<span class="menu"> </span>
 				<ul>
-					<li><a class="active" href="index.html">Home</a></li>
-					<li><a href="404.html">SERVIÇOS</a></li>
-                    <li><a href="menu.html">PRODUTOS</a></li>
-					<li><a href="portfolio.html">PORTFOLIO</a></li>
-					<li class="lost"><a href="contact.html">Contactos</a></li>
+					<li><a id="home" class="active" href="index.php">Home</a></li>
+					<li><a id="servicos" href="404">SERVIÇOS</a></li>
+                    <li><a id="produtos" href="menu">PRODUTOS</a></li>
+					<li><a id="portefolio" href="portefolio">PORTFOLIO</a></li>
+					<li class="lost"><a id="contactos"href="contact">Contactos</a></li>
 					<div class="clearfix"> </div>
 				</ul>
 			</div>
@@ -28,8 +28,8 @@
 		        <script>
                    $(document).ready(function(){
                         $("span.menu").click(function(){
-                            $(".top-nav ul").slideToggle(200);
-                        });
+                           $(".top-nav ul").slideToggle(200);
+                       });
                    });
 			    </script>
 		    </div>

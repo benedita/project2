@@ -22,7 +22,7 @@
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="menu.html">PRODUTOS</a></li>
                     <li><a href="404.html">SERVICES</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="portfolio.php">PORTFOLIO</a></li>
                     <li><a href="contact.html">Contactos</a></li>
                     <div class="clearfix"> </div>
                 </ul>
