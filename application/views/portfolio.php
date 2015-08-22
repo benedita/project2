@@ -1,99 +1,71 @@
 <body>
-	<div class="head-bg">
-		<div class="logo three">
-			<a href="index.html"><h1>FOOD<span>House</span></h1></a>
+	<!--End-top-nav-script-->
+				<div class="clearfix"> </div>
 		</div>
-	</div>
-	<!--/header-->
-    <!--gallery-->
-	<div class="gallery services">
-		<div class="container">
-				<h3>Portfolio</h3>
-			<div class="portfolio-bottom">
-				<div class="gallery-one two">
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g1.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g1.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
+		<div class="head-bg">
+					<div class="logo three">
+							<a href="index.html"><h1>FOOD<span>House</span></h1></a>
 					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/b7.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/b7.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g4.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g4.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g3.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g3.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="images/g5.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g5.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g2.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g2.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g6.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g6.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g1.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g1.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g1.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g1.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/b7.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/b7.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/b8.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/b8.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-					<div class="col-md-3 gallery-left two">
-						<a href="assets/images/g3.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="Image Title">
-								<img src="assets/images/g3.jpg" alt="" class="img-responsive zoom-img"/>
-						</a>
-					</div>
-				</div>
-			</div>
 		</div>
+		<!--/header-->
 	</div>
-	<!--swipebox -->	
-			<link rel="stylesheet" href="assets/css/swipebox.css">
-				<script src="assets/js/jquery.swipebox.min.js"></script>
-				<script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-				</script>
-			<!--//swipebox Ends -->
-    <!--//active menu -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("ul li a#portefolio").addClass('active');
-            $("ul li a#home").removeClass('active');
-            $("ul li a#servicos").removeClass('active');
-            $("ul li a#produtos").removeClass('active');
-            $("ul li a#contactos").removeClass('active');
-        });
-    </script>
+		<div class="menu-section">
+		     <div class="container">
+			      <h2>Menu</h2>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+				       <div class="menu-grids">
+					        <div class="col-md-4 menu-grid">
+                              <a href="single.html"> <img src="images/g1.jpg" class="img-responsive" alt="" /></a>
+									<div class="price">
+                                    <span>$</span>2<span>55</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="col-md-4 menu-grid">
+								<a href="single.html"> <img src="images/g2.jpg" class="img-responsive" alt="" /></a>
+								<div class="price">
+                                    <span>$</span>1<span>75</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="col-md-4 menu-grid">
+								<a href="single.html"> <img src="images/g4.jpg" class="img-responsive" alt="" /></a>
+								<div class="price">
+                                    <span>$</span>6<span>75</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="col-md-4 menu-grid">
+								<a href="single.html"> <img src="images/g3.jpg" class="img-responsive" alt="" /></a>
+								<div class="price">
+                                    <span>$</span>8<span>75</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="col-md-4 menu-grid">
+								<a href="single.html"> <img src="images/g5.jpg" class="img-responsive" alt="" /></a>
+								<div class="price">
+                                    <span>$</span>9<span>75</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="col-md-4 menu-grid">
+								<a href="single.html"> <img src="images/g6.jpg" class="img-responsive" alt="" /></a>
+								<div class="price">
+                                    <span>$</span>3<span>75</span>
+                                </div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+					   </div>
+				 </div>
+			 </div>
+		</div>
 	<!--/start-reservations-->
           	<div class= "reservation">
 				<div class="container"> 
@@ -104,4 +76,5 @@
 					 </div>
 				</div>
 			</div>		 
-	<!--/end-reservations-->	
+	<!--/end-reservations-->
+</body>

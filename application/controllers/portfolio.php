@@ -3,14 +3,13 @@
  * Created by PhpStorm.
  * User: Benny
  * Date: 14/06/2015
- * Time: 00:43
+ * Time: 15:14
  */
+
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class portefolio extends CI_Controller{
-
-
+class portfolio extends CI_Controller{
 
     public function index()
     {
